@@ -24,8 +24,8 @@ def get_users():
 def health_check():
     return jsonify({
         'status': 'healthy',
-        'container': '<LINK_TO_HUB>',
-        'project': 'github.com/onebeatco/ecscale'
+        'container': 'https://hub.docker.com/r/dolgovdima/onebeatco',
+        'project': 'github.com/dimadolgov/devops_challange_onebeatco'
     })
 
 def publish_users(user_list):
