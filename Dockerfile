@@ -7,4 +7,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . /onebeatco
 
-CMD ["python", "user_data.py"]
+CMD ["python", "app/user_data.py"]
