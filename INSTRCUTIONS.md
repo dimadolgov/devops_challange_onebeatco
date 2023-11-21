@@ -16,7 +16,7 @@
 ## Run the Application
   docker-compose up 
   docker run -p 5000:5000 onebeatco
-  # This command will start the Flask application inside a Docker container. The application will be accessible at http://127.0.0.1:5000/users
+  #This command will start the Flask application inside a Docker container. The application will be accessible at http://127.0.0.1:5000/users
 
 
 
